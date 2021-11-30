@@ -7,6 +7,13 @@ export const FooterContainer = styled.footer`
     width: 100%;
 
     padding: 2.6em ${padding.mainPadding.lg};
+    @media (max-width: ${breakpoints.sm}) {
+        padding: 2.4em ${padding.mainPadding.small};
+
+        .sm-hide {
+            display: none;
+        }
+    }
 
     img.logo {
         height: 1.6em;
@@ -98,13 +105,6 @@ export const FooterContainer = styled.footer`
         transition: 0.4s;
         @media (max-width: ${breakpoints.sm}) {
             text-align: left;
-        }
-    }
-    @media (max-width: ${breakpoints.sm}) {
-        padding: 2.4em ${padding.mainPadding.small};
-
-        .sm-hide {
-            display: none;
         }
     }
 `;

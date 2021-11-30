@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useHistory } from "react-router";
 import { Link } from "react-router-dom";
-import { TabContainer, tabTextVariant, tabVariant } from "./style";
+import { TabContainer, tabVariant } from "./style";
 
 export const TabComponent = ({ tabs, defaultIndex, noLink }) => {
     const [activeTabIndex, setActiveTabIndex] = useState(defaultIndex);

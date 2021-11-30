@@ -6,7 +6,22 @@ import { AboutPageContainer } from "./style";
 export const AboutPage = () => {
     return (
         <AboutPageContainer>
-            <NavBar />
+            <section className="banner">
+                <NavBar />
+                <div className="banner-text">
+                    <h3>
+                        Hifast building the crypto economy <br />– a more fair,
+                        accessible, efficient and transparent financial system
+                        enabled by crypto.
+                    </h3>
+                    <h5>
+                        Digital currency is a powerful technology — but its
+                        benefits are limited by how easy it is for people to
+                        use. We excel at making great products that bring the
+                        benefits of digital currency to everyone in Africa
+                    </h5>
+                </div>
+            </section>
             <Faq />
             <Footer />
         </AboutPageContainer>
