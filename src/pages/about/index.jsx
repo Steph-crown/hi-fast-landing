@@ -1,3 +1,10 @@
+import { NavBar } from "../../components/nav";
+import { AboutPageContainer } from "./style";
+
 export const AboutPage = () => {
-    return <p>About Page</p>;
+    return (
+        <AboutPageContainer>
+            <NavBar />
+        </AboutPageContainer>
+    );
 };
