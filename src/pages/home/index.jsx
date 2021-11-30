@@ -1,3 +1,12 @@
+import { Footer } from "../../components/footer";
+import { NavBar } from "../../components/nav";
+import { HomepageContainer } from "./style";
+
 export const HomePage = () => {
-    return <p>Home Page</p>;
+    return (
+        <HomepageContainer>
+            <NavBar />
+            <Footer />
+        </HomepageContainer>
+    );
 };

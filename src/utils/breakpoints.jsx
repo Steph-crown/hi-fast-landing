@@ -1,4 +1,4 @@
 export const breakpoints = {
-    md: "1024px",
+    md: "900px",
     sm: "600px",
 };

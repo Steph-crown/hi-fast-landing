@@ -8,6 +8,10 @@ export const NavBarContainer = styled.header`
     justify-content: space-between;
     padding: 2.6em ${padding.mainPadding.lg};
 
+    img {
+        height: 2em;
+    }
+
     @media (max-width: ${breakpoints.sm}) {
         padding: 2.4em ${padding.mainPadding.small};
 
