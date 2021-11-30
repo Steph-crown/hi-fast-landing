@@ -17,7 +17,17 @@ export const FAQContainer = styled.div`
         font-weight: 400;
         margin-top: 1.2em;
         color: #4a5056;
+        margin-bottom: 40px;
     }
+    @media (max-width: ${breakpoints.sm}) {
+        h2 {
+            font-size: 2em;
+        }
+        h4 {
+            font-size: 1.2em;
+        }
+    }
+
     padding: 2.6em ${padding.mainPadding.lg};
     @media (max-width: ${breakpoints.sm}) {
         padding: 2.4em ${padding.mainPadding.small};
@@ -27,7 +37,7 @@ export const FAQContainer = styled.div`
         }
     }
     p {
-        font-size: 14px;
+        font-size: 1em;
         display: block;
         line-height: 2em;
         color: #4a4a4a;

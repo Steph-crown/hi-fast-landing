@@ -49,7 +49,8 @@ const AccordionContainer = styled.div`
         /* background-color: var(--primary-main-100); */
         /* color: var(--info); */
         cursor: pointer;
-        padding: 8px 18px;
+        padding: 8px 0px;
+        padding-right: 2em;
         width: 100%;
         text-align: left;
         border: none;
@@ -102,7 +103,7 @@ const AccordionContainer = styled.div`
     }
 
     .accordion__panel {
-        padding: 20px;
+        /* padding: 20px; */
         animation: fadein 0.35s ease-in;
 
         div.section {
@@ -110,7 +111,7 @@ const AccordionContainer = styled.div`
         }
 
         div.list p {
-            padding-left: 1.2em;
+            /* padding-left: 1.2em; */
         }
     }
 
