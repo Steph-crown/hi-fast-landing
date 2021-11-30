@@ -28,6 +28,14 @@ export const ValueOfferingContainer = styled.div`
             display: block;
         }
     }
+
+    @media (max-width: 370px) {
+        div.bg-hide {
+            svg {
+                width: 100%;
+            }
+        }
+    }
     h3 {
         font-size: 2em;
         text-align: center;

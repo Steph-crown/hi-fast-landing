@@ -2,6 +2,7 @@ import Faq from "../../components/FAQ";
 import { Footer } from "../../components/footer";
 import { GetStarted } from "../../components/get-started";
 import { NavBar } from "../../components/nav";
+import { OurTeam } from "../../components/our-team";
 import { ValueOffering } from "../../components/value-offering";
 import { AboutPageContainer } from "./style";
 
@@ -24,6 +25,7 @@ export const AboutPage = () => {
                     </h5>
                 </div>
             </section>
+            <OurTeam />
             <ValueOffering />
             <GetStarted />
             <Faq />
