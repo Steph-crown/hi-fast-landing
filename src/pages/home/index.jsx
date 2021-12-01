@@ -13,6 +13,7 @@ import { Sustainable } from "../../components/sustainable";
 import { BorrowCash } from "../../components/borrow-cash";
 import { HowItWorks } from "../../components/how-it-works";
 import { Support } from "../../components/support";
+import { Explore } from "../../components/explore";
 
 export const HomePage = () => {
     return (
@@ -55,6 +56,7 @@ export const HomePage = () => {
             <Sustainable />
             <HowItWorks />
             <Support />
+            <Explore />
             <GetStarted />
             <Faq />
             <Footer />
