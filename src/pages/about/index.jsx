@@ -1,3 +1,4 @@
+import { BannerImages } from "../../components/banner-images";
 import Faq from "../../components/FAQ";
 import { Footer } from "../../components/footer";
 import { GetStarted } from "../../components/get-started";
@@ -26,6 +27,7 @@ export const AboutPage = () => {
                     </h5>
                 </div>
             </section>
+            <BannerImages />
             <Mission />
             <OurTeam />
             <ValueOffering />
