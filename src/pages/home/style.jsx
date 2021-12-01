@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { breakpoints } from "../../utils/breakpoints";
-import { colors } from "../../utils/colors";
 import { padding } from "../../utils/spacing";
 
 import Ellipse from "./../../assets/icons/ellipse.svg";
@@ -14,6 +13,9 @@ export const HomepageContainer = styled.div`
             left: 0;
             width: 100%;
         }
+        div.bg-hide {
+            display: none;
+        }
 
         @media (max-width: ${breakpoints.sm}) {
             img.gradient {
@@ -21,6 +23,14 @@ export const HomepageContainer = styled.div`
                 top: -30px;
                 left: -80px;
                 width: 100%;
+            }
+
+            div.bg-hide {
+                display: block;
+
+                img {
+                    width: 100%;
+                }
             }
         }
         div.banner {

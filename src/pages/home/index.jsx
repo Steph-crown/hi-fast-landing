@@ -40,6 +40,9 @@ export const HomePage = () => {
                     <div className="sm-hide right">
                         <img src={phoneAndCode} alt="" />
                     </div>
+                    <div className="bg-hide">
+                        <img src={phoneAlone} alt="Phone" />
+                    </div>
                 </div>
             </section>
             <GetStarted />
