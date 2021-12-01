@@ -1,6 +1,7 @@
 import Faq from "../../components/FAQ";
 import { Footer } from "../../components/footer";
 import { GetStarted } from "../../components/get-started";
+import { Mission } from "../../components/mission";
 import { NavBar } from "../../components/nav";
 import { OurTeam } from "../../components/our-team";
 import { ValueOffering } from "../../components/value-offering";
@@ -25,6 +26,7 @@ export const AboutPage = () => {
                     </h5>
                 </div>
             </section>
+            <Mission />
             <OurTeam />
             <ValueOffering />
             <GetStarted />

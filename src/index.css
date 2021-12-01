@@ -12,3 +12,13 @@ a {
 body {
     font-size: 16px;
 }
+::-moz-selection {
+    /* Code for Firefox */
+    color: #f2a900;
+    background: #0e1f3f;
+}
+
+::selection {
+    color: #f2a900;
+    background: #0e1f3f;
+}
