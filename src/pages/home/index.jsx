@@ -10,6 +10,7 @@ import phoneAlone from "./../../assets/images/phone-alone.png";
 import phoneAndCode from "./../../assets/images/phone-and-code.png";
 import { TradeAnywhere } from "../../components/trade-anywhere";
 import { Sustainable } from "../../components/sustainable";
+import { BorrowCash } from "../../components/borrow-cash";
 
 export const HomePage = () => {
     return (
@@ -48,6 +49,7 @@ export const HomePage = () => {
                 </div>
             </section>
             <TradeAnywhere />
+            <BorrowCash />
             <Sustainable />
             <GetStarted />
             <Faq />
