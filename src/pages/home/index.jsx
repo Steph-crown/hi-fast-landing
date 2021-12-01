@@ -12,6 +12,7 @@ import { TradeAnywhere } from "../../components/trade-anywhere";
 import { Sustainable } from "../../components/sustainable";
 import { BorrowCash } from "../../components/borrow-cash";
 import { HowItWorks } from "../../components/how-it-works";
+import { Support } from "../../components/support";
 
 export const HomePage = () => {
     return (
@@ -53,6 +54,7 @@ export const HomePage = () => {
             <BorrowCash />
             <Sustainable />
             <HowItWorks />
+            <Support />
             <GetStarted />
             <Faq />
             <Footer />
