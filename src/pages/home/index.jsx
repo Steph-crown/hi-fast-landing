@@ -9,6 +9,7 @@ import gradient from "./../../assets/images/gradient-bg.svg";
 import phoneAlone from "./../../assets/images/phone-alone.png";
 import phoneAndCode from "./../../assets/images/phone-and-code.png";
 import { TradeAnywhere } from "../../components/trade-anywhere";
+import { Sustainable } from "../../components/sustainable";
 
 export const HomePage = () => {
     return (
@@ -47,6 +48,7 @@ export const HomePage = () => {
                 </div>
             </section>
             <TradeAnywhere />
+            <Sustainable />
             <GetStarted />
             <Faq />
             <Footer />
