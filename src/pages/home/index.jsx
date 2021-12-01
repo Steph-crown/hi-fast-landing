@@ -8,6 +8,7 @@ import GooglePlay from "./../../assets/icons/googleplay.svg";
 import gradient from "./../../assets/images/gradient-bg.svg";
 import phoneAlone from "./../../assets/images/phone-alone.png";
 import phoneAndCode from "./../../assets/images/phone-and-code.png";
+import { TradeAnywhere } from "../../components/trade-anywhere";
 
 export const HomePage = () => {
     return (
@@ -45,6 +46,7 @@ export const HomePage = () => {
                     </div>
                 </div>
             </section>
+            <TradeAnywhere />
             <GetStarted />
             <Faq />
             <Footer />
