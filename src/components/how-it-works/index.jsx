@@ -7,11 +7,11 @@ import GooglePlay from "./../../assets/icons/googleplay.svg";
 export const HowItWorks = () => {
     return (
         <HowItWorksContainer>
-            <h2>
+            <h2 data-aos="fade-up">
                 How it <span className="circled">works</span>{" "}
             </h2>
             <div className="flex">
-                <section>
+                <section data-aos="fade-up">
                     <h2>01</h2>
                     <h3>Sign up</h3>
                     <p>
@@ -20,7 +20,7 @@ export const HowItWorks = () => {
                     </p>
                 </section>
 
-                <section>
+                <section data-aos="fade-up">
                     <h2>02</h2>
                     <h3>Fund wallets</h3>
                     <p>
@@ -29,7 +29,7 @@ export const HowItWorks = () => {
                     </p>
                 </section>
 
-                <section>
+                <section data-aos="fade-up">
                     <h2>03</h2>
                     <h3>Get Crypto assets</h3>
                     <p>
@@ -38,7 +38,7 @@ export const HowItWorks = () => {
                     </p>
                 </section>
             </div>
-            <div className="downloads">
+            <div className="downloads" data-aos="fade-up">
                 <a href="/">
                     <img src={GooglePlay} alt="" />
                 </a>{" "}

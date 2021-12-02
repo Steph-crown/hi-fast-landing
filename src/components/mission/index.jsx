@@ -6,7 +6,7 @@ export const Mission = () => {
     return (
         <MissionContainer>
             <section className="top">
-                <div>
+                <div data-aos="fade-up">
                     <h3>Our Mission</h3>
                     <p>
                         Everyone deserves access to financial services that can
@@ -16,7 +16,7 @@ export const Mission = () => {
                     </p>
                     <img src={TargetImage} alt="Target" />
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <h3>Our Value</h3>
                     <p>
                         Hifast values are based on Professionalism, transparency
@@ -30,7 +30,7 @@ export const Mission = () => {
                 </div>
             </section>
             <section className="bottom">
-                <div>
+                <div data-aos="fade-up">
                     <h3>The Problem</h3>
                     <p>
                         Think about how much each bank transfer you’ve had to
@@ -40,7 +40,7 @@ export const Mission = () => {
                         see a movie or buy shawarma 😩 so sad
                     </p>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <h3>The Value Offering</h3>
                     <p>
                         With Hifast, you can send money to anyone on your

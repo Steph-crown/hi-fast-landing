@@ -11,31 +11,31 @@ export const Footer = () => {
     return (
         <FooterContainer>
             <div>
-                <section className="larger">
+                <section className="larger" data-aos="fade-up">
                     <img src={Logo} alt="Hifast Logo" className="logo" />
                     <p>
                         No 45A Jankande Lateff bla bla road for the sake of
                         address
                     </p>
                 </section>
-                <section className="normal">
+                <section className="normal" data-aos="fade-up">
                     <h4>Support</h4>
                     <a href="mailto:Info@HiFasttech.com">Info@HiFasttech.com</a>
                     <a href="twitter.com/HiFast">twitter.com/HiFast</a>
                     <a href="instagram.com/HiFast">Instagram</a>
                 </section>
-                <section className="normal">
+                <section className="normal" data-aos="fade-up">
                     <h4>Company</h4>
                     <Link to="/about">About Us</Link>
                     <Link to="/#FAQ">FAQ</Link>
                 </section>
-                <section className="normal">
+                <section className="normal" data-aos="fade-up">
                     <h4>Legal</h4>
                     <Link to="/">Privacy Policy</Link>
                     <Link to="/">Terms and Conditions</Link>
                 </section>
             </div>
-            <div className="socials">
+            <div className="socials" data-aos="fade-up">
                 <a href="twitter.com/HiFast">
                     <Facebook />
                 </a>

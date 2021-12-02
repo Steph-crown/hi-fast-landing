@@ -6,11 +6,11 @@ export const GetStarted = () => {
     return (
         <GetStartedContainer>
             <div>
-                <h1>Get Started 🚀</h1>
-                <h1 style={{ marginTop: "0.8em" }}>
+                <h1 data-aos="fade-up">Get Started 🚀</h1>
+                <h1 data-aos="fade-up" style={{ marginTop: "0.8em" }}>
                     Download Hifast app to start exploring
                 </h1>
-                <div className="downloads">
+                <div data-aos="fade-up" className="downloads">
                     <a href="/">
                         <img src={GooglePlay} alt="" />
                     </a>{" "}

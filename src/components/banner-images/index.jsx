@@ -9,16 +9,41 @@ import banner6 from "./../../assets/images/banner6.png";
 export const BannerImages = () => {
     return (
         <BannerImagesContainer>
-            <img src={banner1} alt="" className="banner1" />
+            <img src={banner1} alt="" className="banner1" data-aos="fade-up" />
             <div className="right">
                 <div className="right__top">
-                    <img src={banner2} alt="" className="banner2" />
-                    <img src={banner3} alt="" className="banner3" />
+                    <img
+                        src={banner2}
+                        alt=""
+                        className="banner2"
+                        data-aos="fade-up"
+                    />
+                    <img
+                        src={banner3}
+                        alt=""
+                        className="banner3"
+                        data-aos="fade-up"
+                    />
                     {/* </div> */}
                     {/* <div className="right__bottom"> */}
-                    <img src={banner4} alt="" className="banner4" />
-                    <img src={banner5} alt="" className="banner5" />
-                    <img src={banner6} alt="" className="banner6" />
+                    <img
+                        src={banner4}
+                        alt=""
+                        className="banner4"
+                        data-aos="fade-up"
+                    />
+                    <img
+                        src={banner5}
+                        alt=""
+                        className="banner5"
+                        data-aos="fade-up"
+                    />
+                    <img
+                        src={banner6}
+                        alt=""
+                        className="banner6"
+                        data-aos="fade-up"
+                    />
                 </div>
             </div>
         </BannerImagesContainer>

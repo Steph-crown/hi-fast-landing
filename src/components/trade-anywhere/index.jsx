@@ -10,21 +10,29 @@ export const TradeAnywhere = () => {
                 src={ImageDesktop}
                 alt="Phone slant left"
                 className="sm-hide"
+                data-aos="fade-up"
             />
-            <img src={ImagePhone} alt="Phone slant right" className="bg-hide" />
+            <img
+                src={ImagePhone}
+                alt="Phone slant right"
+                className="bg-hide"
+                data-aos="fade-up"
+            />
             <div className="right">
-                <small className="caps">CRYPTO</small>
-                <h2>
+                <small className="caps" data-aos="fade-up">
+                    CRYPTO
+                </small>
+                <h2 data-aos="fade-up">
                     Trade <span className="circled">anywhere</span>{" "}
                 </h2>
-                <h6>
+                <h6 data-aos="fade-up">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Facilisis egestas aliquam turpis id. Ut mauris elit mauris
                     faucibus.
                 </h6>
                 <section>
-                    <img src={LogoCircle} alt="Logo" />
-                    <div>
+                    <img data-aos="fade-up" src={LogoCircle} alt="Logo" />
+                    <div data-aos="fade-up">
                         <h4>Buy and sell crypto fast 💰</h4>
                         <p>
                             Hifast enables you to buy and sell Bitcoin, BNB and
@@ -35,8 +43,8 @@ export const TradeAnywhere = () => {
                     </div>
                 </section>
                 <section>
-                    <img src={LogoCircle} alt="Logo" />
-                    <div>
+                    <img src={LogoCircle} alt="Logo" data-aos="fade-up" />
+                    <div data-aos="fade-up">
                         <h4>Send and Receive cash or crypto instantly 💸</h4>
                         <p>
                             Want to pay someone not on hifast? Send, request and
@@ -49,8 +57,8 @@ export const TradeAnywhere = () => {
                     </div>
                 </section>
                 <section>
-                    <img src={LogoCircle} alt="Logo" />
-                    <div>
+                    <img src={LogoCircle} alt="Logo" data-aos="fade-up" />
+                    <div data-aos="fade-up">
                         <h4>Withdraw and deposit crypto</h4>
                         <p>
                             Want to move crypto out of Hifast to another wallet?

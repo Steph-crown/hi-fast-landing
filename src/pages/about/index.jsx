@@ -14,12 +14,12 @@ export const AboutPage = () => {
             <section className="banner">
                 <NavBar />
                 <div className="banner-text">
-                    <h3>
+                    <h3 data-aos="fade-up">
                         Hifast is building the crypto economy <br />– a more
                         fair, accessible, efficient and transparent financial
                         system enabled by crypto.
                     </h3>
-                    <h5>
+                    <h5 data-aos="fade-up">
                         Digital currency is a powerful technology — but its
                         benefits are limited by how easy it is for people to
                         use. We excel at making great products that bring the

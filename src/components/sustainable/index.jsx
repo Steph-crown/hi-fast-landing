@@ -7,24 +7,32 @@ export const Sustainable = () => {
     return (
         <SustainableContainer>
             <img
+                data-aos="fade-up"
                 src={ImageDesktop}
                 alt="Phone slant left"
                 className="sm-hide"
             />
-            <img src={ImagePhone} alt="Phone slant right" className="bg-hide" />
+            <img
+                data-aos="fade-up"
+                src={ImagePhone}
+                alt="Phone slant right"
+                className="bg-hide"
+            />
             <div className="right">
-                <small className="caps">CRYPTO</small>
-                <h2>
+                <small className="caps" data-aos="fade-up">
+                    CRYPTO
+                </small>
+                <h2 data-aos="fade-up">
                     Building a{" "}
                     <span className="circled">Crypto Sustainable </span>
                     <span className="circled"> ecosystem </span> with Hifast
                 </h2>
-                <h6>
+                <h6 data-aos="fade-up">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Facilisis egestas aliquam turpis id. Ut mauris elit mauris
                     faucibus.
                 </h6>
-                <section>
+                <section data-aos="fade-up">
                     <img src={LogoCircle} alt="Logo" />
                     <div>
                         <h4>Buy and sell crypto fast 💰</h4>
@@ -34,7 +42,7 @@ export const Sustainable = () => {
                         </p>
                     </div>
                 </section>
-                <section>
+                <section data-aos="fade-up">
                     <img src={LogoCircle} alt="Logo" />
                     <div>
                         <h4>Send and Receive crypto</h4>
@@ -45,7 +53,7 @@ export const Sustainable = () => {
                         </p>
                     </div>
                 </section>
-                <section>
+                <section data-aos="fade-up">
                     <img src={LogoCircle} alt="Logo" />
                     <div>
                         <h4>Live price updates</h4>

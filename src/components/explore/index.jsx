@@ -14,7 +14,7 @@ import chart6 from "./../../assets/charts/chart6.svg";
 
 export const Explore = () => {
     return (
-        <ExploreContainer>
+        <ExploreContainer data-aos="fade-up">
             <h2>Explore market Live price updates</h2>
             <TableContainer>
                 <table>

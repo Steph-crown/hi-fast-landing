@@ -23,18 +23,18 @@ export const HomePage = () => {
                 <NavBar />
                 <div className="banner">
                     <div className="left">
-                        <h1>
+                        <h1 data-aos="fade-up">
                             Deposit and withdraw Cash and{" "}
                             <span className="circled">Crypto</span> assets with
                             Hifast
                         </h1>
-                        <p>
+                        <p data-aos="fade-up">
                             Explore a world of boundless opportunities with
                             Hifast and get unlimited access to a better
                             financial experience designed to get you to where
                             you need to be.
                         </p>
-                        <div className="downloads">
+                        <div className="downloads" data-aos="fade-up">
                             <a href="/">
                                 <img src={GooglePlay} alt="" />
                             </a>{" "}
@@ -44,10 +44,21 @@ export const HomePage = () => {
                         </div>
                     </div>
                     <div className="sm-hide right">
-                        <img src={phoneAndCode} alt="" />
+                        <img
+                            src={phoneAndCode}
+                            alt=""
+                            data-aos="fade-up"
+                            data-aos-duration="4000"
+                            // data-aos-delay="500"
+                        />
                     </div>
                     <div className="bg-hide">
-                        <img src={phoneAlone} alt="Phone" />
+                        <img
+                            src={phoneAlone}
+                            alt="Phone"
+                            data-aos="fade-up"
+                            data-aos-duration="4000"
+                        />
                     </div>
                 </div>
             </section>

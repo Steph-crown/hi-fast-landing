@@ -32,6 +32,7 @@ export const SupportContainer = styled.div`
             width: 90%;
         }
     }
+
     h1 {
         color: #dedede;
         font-size: 16em;
