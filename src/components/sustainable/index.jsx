@@ -1,6 +1,4 @@
 import { SustainableContainer } from "./style";
-import ImageDesktop from "./../../assets/images/radar.png";
-import ImagePhone from "./../../assets/images/radar.png";
 import LogoCircle from "./../../assets/icons/logo-circle.svg";
 
 export const Sustainable = () => {

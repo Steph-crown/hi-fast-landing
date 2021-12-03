@@ -20,7 +20,7 @@ export const NavBar = ({ executeScroll }) => {
                         About Us
                         <div className="line"></div>
                     </Link>
-                    <Link className="sm-hide" onClick={executeScroll}>
+                    <Link className="sm-hide" to="" onClick={executeScroll}>
                         FAQ
                         <div className="line"></div>
                     </Link>
