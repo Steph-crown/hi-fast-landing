@@ -83,7 +83,7 @@ export const BorrowCashContainer = styled.div`
     }
 
     section {
-        margin: 1.6em 0;
+        margin: 3.2em 0;
         img {
             height: 2.5em;
             margin-right: 2em;

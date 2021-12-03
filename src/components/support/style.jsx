@@ -36,7 +36,7 @@ export const SupportContainer = styled.div`
     h1 {
         color: #dedede;
         font-size: 16em;
-        padding-left: 40px;
+        padding-left: 0px;
 
         @media (max-width: 1200px) {
             font-size: 13em;

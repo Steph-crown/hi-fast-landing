@@ -105,6 +105,7 @@ const AccordionContainer = styled.div`
     .accordion__panel {
         /* padding: 20px; */
         animation: fadein 0.35s ease-in;
+        margin: 1em 0;
 
         div.section {
             margin: 1em 0;

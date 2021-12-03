@@ -45,12 +45,12 @@ export const FAQContainer = styled.div`
     }
 
     h3 {
-        font-size: 23px;
+        font-size: 24px;
         display: block;
         margin-top: 1em;
         line-height: 2em;
         color: #4a4a4a;
         transition: 0.4s;
-        font-weight: 400;
+        font-weight: 500;
     }
 `;
