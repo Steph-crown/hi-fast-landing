@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import { BannerImages } from "../../components/banner-images";
 import Faq from "../../components/FAQ";
 import { Footer } from "../../components/footer";
@@ -9,10 +10,21 @@ import { ValueOffering } from "../../components/value-offering";
 import { AboutPageContainer } from "./style";
 
 export const AboutPage = () => {
+    const myRef = useRef(null);
+    const topRef = useRef(null);
+    useEffect(() => {
+        topRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+
+        return () => {};
+    }, []);
+
+    const executeScroll = () =>
+        myRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+
     return (
         <AboutPageContainer>
-            <section className="banner">
-                <NavBar />
+            <section className="banner" ref={topRef}>
+                <NavBar executeScroll={executeScroll} />
                 <div className="banner-text">
                     <h3 data-aos="fade-up">
                         Hifast is building the crypto economy <br />– a more
@@ -32,7 +44,9 @@ export const AboutPage = () => {
             <OurTeam />
             <ValueOffering />
             <GetStarted />
-            <Faq />
+            <div ref={myRef}>
+                <Faq />
+            </div>
             <Footer />
         </AboutPageContainer>
     );

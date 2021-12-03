@@ -454,7 +454,7 @@ const tabs = [
 export const Faq = () => {
     return (
         <FAQContainer>
-            <h2>FAQ</h2>
+            <h2 id="#FAQ">FAQ</h2>
             <h4>Get all your questions about HiFast answered.</h4>
             <TabComponent tabs={tabs} noLink={true} defaultIndex={0} />
         </FAQContainer>

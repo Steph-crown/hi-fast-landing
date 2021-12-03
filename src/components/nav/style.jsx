@@ -7,9 +7,14 @@ export const NavBarContainer = styled.header`
     display: flex;
     justify-content: space-between;
     padding: 2.6em ${padding.mainPadding.lg};
+    position: relative;
 
     img {
         height: 2em;
+    }
+
+    .lg-hide {
+        display: none;
     }
 
     @media (max-width: ${breakpoints.sm}) {
@@ -17,6 +22,10 @@ export const NavBarContainer = styled.header`
 
         .sm-hide {
             display: none;
+        }
+
+        .lg-hide {
+            display: block;
         }
     }
 
@@ -49,6 +58,20 @@ export const NavBarContainer = styled.header`
 
             &:hover div.line {
                 width: 100%;
+            }
+        }
+
+        div.menu {
+            i.fa-bars,
+            i.fa-times {
+                font-size: 1.4em;
+                color: ${colors.mainBlue};
+
+                -webkit-text-stroke: 1px white;
+            }
+
+            div.menu-content {
+                position: absolute;
             }
         }
     }

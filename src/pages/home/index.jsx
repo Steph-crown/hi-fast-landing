@@ -14,13 +14,24 @@ import { BorrowCash } from "../../components/borrow-cash";
 import { HowItWorks } from "../../components/how-it-works";
 import { Support } from "../../components/support";
 import { Explore } from "../../components/explore";
+import { useEffect, useRef } from "react";
 
 export const HomePage = () => {
+    const myRef = useRef(null);
+    const topRef = useRef(null);
+    useEffect(() => {
+        topRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+
+        return () => {};
+    }, []);
+
+    const executeScroll = () =>
+        myRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
     return (
         <HomepageContainer>
-            <section className="banner">
+            <section className="banner" ref={topRef}>
                 <img src={gradient} alt="" className="gradient" />
-                <NavBar />
+                <NavBar executeScroll={executeScroll} />
                 <div className="banner">
                     <div className="left">
                         <h1 data-aos="fade-up">
@@ -69,7 +80,9 @@ export const HomePage = () => {
             <Support />
             <Explore />
             <GetStarted />
-            <Faq />
+            <div ref={myRef}>
+                <Faq />
+            </div>
             <Footer />
         </HomepageContainer>
     );

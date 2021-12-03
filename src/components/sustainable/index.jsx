@@ -8,13 +8,13 @@ export const Sustainable = () => {
         <SustainableContainer>
             <img
                 data-aos="fade-up"
-                src={ImageDesktop}
+                src="https://scessila.sirv.com/hifast/Document%20from%20Steph%20Crown.gif"
                 alt="Phone slant left"
                 className="sm-hide"
             />
             <img
                 data-aos="fade-up"
-                src={ImagePhone}
+                src="https://scessila.sirv.com/hifast/Document%20from%20Steph%20Crown.gif"
                 alt="Phone slant right"
                 className="bg-hide"
             />
