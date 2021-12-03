@@ -20,7 +20,14 @@ export const NavBar = ({ executeScroll }) => {
                         About Us
                         <div className="line"></div>
                     </Link>
-                    <Link className="sm-hide" to="" onClick={executeScroll}>
+                    <Link
+                        className="sm-hide"
+                        to=""
+                        onClick={(e) => {
+                            e.preventDefault();
+                            executeScroll();
+                        }}
+                    >
                         FAQ
                         <div className="line"></div>
                     </Link>
@@ -47,7 +54,13 @@ export const NavBar = ({ executeScroll }) => {
                         <h4>ABOUT US</h4>
                         <i className="fas fa-angle-right"></i>
                     </Link>
-                    <Link to="" onClick={executeScroll}>
+                    <Link
+                        to=""
+                        onClick={(e) => {
+                            e.preventDefault();
+                            executeScroll();
+                        }}
+                    >
                         <h4>FAQ </h4>
                         <i className="fas fa-angle-right"></i>
                     </Link>

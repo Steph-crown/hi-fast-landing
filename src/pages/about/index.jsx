@@ -10,7 +10,7 @@ import { ValueOffering } from "../../components/value-offering";
 import { AboutPageContainer } from "./style";
 
 export const AboutPage = () => {
-    const myRef = useRef(null);
+    const yourRef = useRef(null);
     const topRef = useRef(null);
     useEffect(() => {
         topRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -19,7 +19,7 @@ export const AboutPage = () => {
     }, []);
 
     const executeScroll = () =>
-        myRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
+        yourRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
 
     return (
         <AboutPageContainer>
@@ -44,7 +44,7 @@ export const AboutPage = () => {
             <OurTeam />
             <ValueOffering />
             <GetStarted />
-            <div ref={myRef}>
+            <div ref={yourRef}>
                 <Faq />
             </div>
             <Footer />
