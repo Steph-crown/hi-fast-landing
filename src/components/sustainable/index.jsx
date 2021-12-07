@@ -6,13 +6,13 @@ export const Sustainable = () => {
         <SustainableContainer>
             <img
                 data-aos="fade-up"
-                src="https://scessila.sirv.com/hifast/Document%20from%20Steph%20Crown.gif"
+                src="https://scessila.sirv.com/hifast/Hifast%20Radar%20(1).gif"
                 alt="Phone slant left"
                 className="sm-hide"
             />
             <img
                 data-aos="fade-up"
-                src="https://scessila.sirv.com/hifast/Document%20from%20Steph%20Crown.gif"
+                src="https://scessila.sirv.com/hifast/Hifast%20Radar%20(1).gif"
                 alt="Phone slant right"
                 className="bg-hide"
             />
